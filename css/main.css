@@ -1,0 +1,17 @@
+h2.active{
+    transform: translateX(90px) rotate(360deg);
+    transition: all .3s linear;
+}
+img.active{
+    transition: all .35s linear;
+    transform: translateX(90px) rotate(360deg);
+}
+img,h2{
+    transition: all .35s linear;
+}
+
+.site__div.active {
+    width: 85px;
+    height: 270px;
+    background-color: blue;
+}
